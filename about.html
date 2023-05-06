@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/not found/myself/images/favicon2.ico" type="image/x-icon">
+    <title>Run | about</title>
+  </head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.about_div {
+  background-color: #111d2e;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #5DFC94;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  font-size: 70px;
+  height: 30px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="about_div">
+  <div class="logo"><a href="index.html">
+    <img src="/not found/myself/images/favicon2.ico" alt="back" title="back to home"></a>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p id="left" style="font-size:30px"></p>
+  </div>
+  
+</div>
+
+<script>
+var countDownDate = new Date("Jan 30, 2024 15:37:25").getTime();
+var countdownfunction = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("left").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("left").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
