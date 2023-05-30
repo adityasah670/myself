@@ -10,21 +10,75 @@
     <title>Run | home</title>
 </head>
 <body id="body">
-    <header>
+   <header>
         <div id="clock">8:13:45</div>
-      <h1 id="head">Run</h1>
+        <div class="down">
+        <span id="menu-bar">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </span>
+<div class="down-cont">
+    <input type="search" placeholder="search">
+        <a href="#" class="con">sign up</a>
+        <a href="#">Login</a>
+</div>
+        </div>
     </header>
 <nav >
-    <a href="" target="_self" id="navi">Home</a> <a href="about.html"  id="about">about</a>
-<button onclick="daybut()" id="dayton">day</button>
-    <button onclick="nightbut()" id="nighton">night</button> 
+    <div id="dropdown">
+        <a href="" id="home" style="color: red;">Home</a>
+        
+    <a href="robotics.html"  rel="not" id="robotics">robotics</a>
+    <a href="code.html" id="code">code</a>
+   
+    
+<!-- <button onclick="daybut()" id="dayton">day</button>
+    <button onclick="nightbut()" id="nighton">night</button>  -->
+</div>
 </nav>
 
+
     <main>
+    <section class="sec1">
+<h1>hello it's aks</h1>
+<p> this is the learing website</p>
 
-    <h1>Hello World</h1>
-    
+    </section>
+    <section class="sec2">
+        <div class="slideshow-container">
 
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="/not found/myself/images/light-red.jpg" style="width:100%">
+              <div class="text">......</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="/not found/myself/images/green.jpg" style="width:100%">
+              <div class="text">......</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="/not found/myself/images/Aqua.jpg" style="width:100%">
+              <div class="text">......</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+    </section>
+<section class="sec3"></section>
 
 
 
@@ -36,6 +90,9 @@
 
     
 </main>
+<footer>
+     <a href="about.html"  id="about">about</a>
+</footer>
 </body>
 <script src="/myself/js/script.js"></script>
 </html>
