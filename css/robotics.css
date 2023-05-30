@@ -1,0 +1,32 @@
+body,html{
+    background-color: #111d2e;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #f0f0f0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 16px;
+    font-size: 70px;
+    height: 30px;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+hr{
+    width: 40%;
+    margin: auto;
+}
+*::selection{
+    background-color: rgb(20, 148, 165);
+    color: white;
+}
