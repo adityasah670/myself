@@ -37,7 +37,7 @@ let slideIndex = 1;
               showSlides(slideIndex = n);
             }
             
-            function showSlides(n) {
+   function showSlides(n) {
               let i;
               let slides = document.getElementsByClassName("mySlides");
               let dots = document.getElementsByClassName("dot");
@@ -52,3 +52,15 @@ let slideIndex = 1;
               slides[slideIndex-1].style.display = "block";  
               dots[slideIndex-1].className += " active";
             }
+
+function down(){
+  document.getElementById('barBlock').style.display='block'
+  document.getElementById('menu-bar').style.display='none'
+  document.getElementById('close').style.display='block'
+}
+function up(){
+  document.getElementById('barBlock').style.display='none'
+  document.getElementById('menu-bar').style.display='block'
+  document.getElementById('close').style.display='none'
+ 
+}
