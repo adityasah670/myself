@@ -309,15 +309,9 @@ display: none;
   #menu-bar{
     display: block;
   }
-  .robotics2{
-display: none;
-  }.code2{
-    display: none;
-
-  }.about2{
-    display: none;
-
-  }
+  nav a{
+  display: none;
+ }
  
 
 }
