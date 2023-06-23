@@ -1,20 +1,11 @@
 body,html{
-    background-color: #111d2e;
-    height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: #f0f0f0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 35px;
 }
-.logo{
-    position: absolute;
-    top: 0;
-    left: 16px;
-    font-size: 70px;
-    height: 30px;
-}
+
 .middle{
     position: absolute;
     top: 50%;
@@ -25,8 +16,42 @@ body,html{
 hr{
     width: 40%;
     margin: auto;
+    
+}
+body{
+    background-color: #e7e5e5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
 }
 *::selection{
-    background-color: rgb(92, 165, 20);
+    background-color:#727bb8;
+    color: #ffffff;
+}
+nav{
+    background-color: #2edf78;
+    height: 50px;
+    margin: 10px;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+#nav a{
+    color: rgb(26, 26, 26);
+    height: 50px;   
+    font-size: 20px;
+    margin-left: 70px;
+width: 100px;
+}
+#nav a:hover{
+    background-color: #f8dede;
+}
+*::selection{
+    background-color: #6843cf;
     color: white;
 }
