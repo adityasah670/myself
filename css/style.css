@@ -58,6 +58,8 @@ display: inline-block;
   min-width: 230px;
  top: 60px;
   right: 2px;
+   border-radius: 15px;
+  background-color: #ffb1b1;
   z-index: 1;
 }
  #barBlock a{
