@@ -35,7 +35,7 @@ a{
     color: #ffffff;
 }
 nav{
-    background-color: #2edf78;
+    background-color: #7510f8;
     height: 50px;
     margin: 10px;
     font-size: 30px;
@@ -50,7 +50,7 @@ nav{
 width: 100px;
 }
 #nav a:hover{
-    background-color: #f8dede;
+    background-color: #a9aaff;
 }
 *::selection{
     background-color: #6843cf;
