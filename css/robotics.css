@@ -1,19 +1,15 @@
+*{
+    text-transform: capitalize;
+}
 body,html{
-    background-color: #111d2e;
+    background-color: #e9e9e9;
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: #f0f0f0;
+    color: #1b1b1b;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-}
-.logo{
-    position: absolute;
-    top: 0;
-    left: 16px;
-    font-size: 70px;
-    height: 30px;
 }
 .middle{
     position: absolute;
@@ -29,4 +25,14 @@ hr{
 *::selection{
     background-color: rgb(20, 148, 165);
     color: white;
+}
+nav{
+    background-color: #2ec5df;
+    height: 50px;
+    margin: 10px;
+    font-size: 30px;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
 }
