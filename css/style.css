@@ -54,23 +54,19 @@ display: inline-block;
 #barBlock{
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 230px;
- top: 60px;
-  right: 2px;
-   border-radius: 15px;
   background-color: #ffb1b1;
+  min-width: 230px;
+ top: 50px;
+  right: 2px;
   z-index: 1;
+  border-radius: 15px;
   padding: 25px;
 }
  #barBlock a{
   color: black;
 padding: 12px 16px;
 display: block;
-}
-/* .down:hover .down-cont{
-display: block; 
-} */
+ }
 #barBlock a:hover{
   background-color: rgb(207, 207, 207);
 }
@@ -78,6 +74,7 @@ input[type=search]{
   height: 30px;
   width: 300px;
 }
+
 .title_para{
   font-size: larger;
   font-size: 60px;
@@ -89,32 +86,7 @@ input[type=search]{
  
   font-size: 25px;
 }
-/*                                                                      ^^^^^ fixed                                               */
 
-
-
-
-/* #nighton{
-  display: none;
-  background-color: inherit;
-  color: rgb(0, 0, 0);
-  border-color: rgb(0, 0, 0);
-  height: 50px;
-  width: 90px;
-  font-size: 20px;
-  border-radius: 15px;
-  float: right;
-}
-#dayton{
-  background-color: inherit;
-  color: #5DFC94;
-  border-color: #5DFC94;
-  height: 50px;
-  width: 90px;
-  font-size: 20px;
-  border-radius: 15px;
-  float: right;
-} */
 header{
 background-color: #f8f8f8;
   height: 70px;
@@ -153,7 +125,7 @@ text-align: center;
 
 #sec2{
   min-height: 300px;
-  margin: 70px;
+  margin: 0px;
  
 }
 .sec3{
@@ -178,15 +150,13 @@ text-align: center;
 .mySlides {display: none}
 img {vertical-align: middle;}
 
-/* Slideshow container */
 .slideshow-container {
 width: 100%;
 position: relative;
 margin: auto;
-right: 1%;
+right: 0%;
 }
 
-/* Next & previous buttons */
 .prev, .next {
 cursor: pointer;
 position: absolute;
@@ -236,8 +206,6 @@ padding: 8px 12px;
 position: absolute;
 top: 0;
 }
-
-/* The dots/bullets/indicators */
 .dot {
 cursor: pointer;
 height: 15px;
@@ -266,8 +234,6 @@ animation-duration: 1.5s;
 from {opacity: .4} 
 to {opacity: 1}
 }
-
-/* On smaller screens, decrease text size */
 #close{
   cursor: pointer;
   font-size: 30px;
@@ -293,13 +259,13 @@ footer{
   color: #ffffff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 30px;
-   
   }
 
 @media screen and (min-width:400px) {
   #menu-bar{
    display: none;
  }
+
 }
 
 @media screen  and (max-width:1000px){
@@ -312,7 +278,7 @@ display: none;
   #menu-bar{
     display: block;
   }
-  nav a{
+ nav a{
   display: none;
  }
  
@@ -367,8 +333,5 @@ section{
 @media only screen and (max-width: 400px) {
 .sec1{
 background-color: #5DFC94;
-}
-footer a{
-  font-size: medium;
 }
 }
