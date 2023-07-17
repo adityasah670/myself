@@ -115,7 +115,7 @@ section{
   margin: 30px;
 }
 #sec1{
-  height: 500px;
+  height: 550px;
   padding-top: 30px;
   font-size: 20px;
   color: #ffffff;
@@ -255,6 +255,7 @@ footer{
   text-align: center;
   padding-top: 250px;
   width:100%;
+  box-sizing: content-box;
   }
   footer a{
   color: #ffffff;
@@ -286,13 +287,6 @@ display: none;
 
 }
 @media screen and (max-width:900px){
-.prev, .next,.text {font-size: 11px}
-.slideshow-container {
-  width: 100%;
-  position: relative;
-  margin: auto;
-  left: 25px;
-}
 main{
   text-align: center;
   padding-left: initial;
