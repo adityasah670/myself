@@ -7,10 +7,11 @@ body{
   margin: 0px;
   text-transform: capitalize;
   box-sizing: border-box;
+  
 }
 *::selection{
 color: #ffffff;
-background-color: #fc403a;
+background-color: #3AA6B9;
 }
 main{
     padding-top: 50px;
@@ -21,7 +22,7 @@ main{
     width: 200px;
     margin: 5px;
     text-align: center;
-    border: 2px solid rgb(218, 13, 13);
+    border: 2px solid rgb(13, 177, 218);
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     position: absolute;
@@ -45,6 +46,8 @@ top:15px;right: 25px;
 border: none;
 cursor: pointer;
 user-select: none;
+margin-right: 30px;
+display: block;
 }
 .down{
 display: inline-block;
@@ -54,7 +57,7 @@ display: inline-block;
 #barBlock{
   display: none;
   position: absolute;
-  background-color: #ffb1b1;
+  background-color: #a4f4f7;
   min-width: 230px;
  top: 50px;
   right: 2px;
@@ -67,9 +70,6 @@ display: inline-block;
 padding: 12px 16px;
 display: block;
 }
-/* .down:hover .down-cont{
-display: block; 
-} */
 #barBlock a:hover{
   background-color: rgb(207, 207, 207);
 }
@@ -85,20 +85,21 @@ input[type=search]{
   margin: 70px;
 }
 .title_para1{
-  color: rgb(236, 9, 9);text-decoration: underline;
+  color: rgb(96, 189, 250);text-decoration: underline;
  
   font-size: 25px;
 }
 
 header{
- background-color: #f8f8f8; 
+ background-color:inherit; 
   height: 70px;
   color: #000000 ;
   padding-top: 20px;
   font-size: 20px;
   padding-left: 70px;
   z-index: 1;
-  width: 100%;
+  width: 100%; 
+  user-select: none;
 }
 a{
   text-decoration: none;
@@ -110,7 +111,11 @@ nav a{
   display: inline;
   background-color: inherit;
   margin: 50px;
-  color: #000;
+  color: #000000;
+ 
+}
+nav a:hover{
+  color: #3AA6B9;
 }
 section{
   text-align: center;
@@ -118,11 +123,12 @@ section{
 }
 #sec1{
   height: 550px;
-  padding-top: 30px;
+ 
   font-size: 20px;
   color: #ffffff;
   font-family: "Allerta Stencil", Sans-serif;
 text-align: center;
+
 }
 
 #sec2{
@@ -173,8 +179,6 @@ transition: 0.6s ease;
 border-radius: 0 3px 3px 0;
 user-select: none;
 }
-
-/* Position the "next button" to the right */
 .next {
 right: 0;
 border-radius: 3px 0 0 3px;
@@ -184,12 +188,12 @@ position: absolute;
 left: 0px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
 background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+
 .text {
 color: #f2f2f2;
 font-size: 15px;
@@ -199,8 +203,6 @@ bottom: 8px;
 width: 100%;
 text-align: center;
 }
-
-/* Number text (1/3 etc) */
 .numbertext {
 color: #f2f2f2;
 font-size: 12px;
@@ -208,14 +210,12 @@ padding: 8px 12px;
 position: absolute;
 top: 0;
 }
-
-/* The dots/bullets/indicators */
 .dot {
 cursor: pointer;
 height: 15px;
 width: 15px;
 margin: 0 2px;
-background-color: #c41010;
+background-color: #41a2fc;
 border-radius: 50%;
 display: inline-block;
 transition: background-color 0.6s ease;
@@ -227,8 +227,6 @@ left: 25px;
 .active, .dot:hover {
 background-color: #ffffff;
 }
-
-/* Fading animation */
 .fade {
 animation-name: fade;
 animation-duration: 1.5s;
@@ -238,8 +236,6 @@ animation-duration: 1.5s;
 from {opacity: .4} 
 to {opacity: 1}
 }
-
-/* On smaller screens, decrease text size */
 #close{
   cursor: pointer;
   font-size: 30px;
