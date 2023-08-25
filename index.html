@@ -10,40 +10,37 @@
     <title>Run | home</title>
 </head>
 <body id="body">
-  <header>
+ <header style="background-color: #F6F1F1;"> 
     <div id="clock">8:13:45</div>
-     <button onclick="up()" id="close"><i class="fa-solid fa-xmark"></i></button>
+   <button  id="close" onclick="up()"><i class="fa-solid fa-xmark"></i></button>
     <div class="down"  id="down2">
-    <div id="menu-bar" onclick="down()">
+    <div id="menu-bar" onclick="down()" style="display: block;">
         <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+        <div class="bar" onclick="down()"></div>
+        <div class="bar" onclick="down()"></div>
     </div>
-<div  id="barBlock">
+ <div  id="barBlock">
 <input type="search" placeholder="search">
 <a href="robotics.html"  target="_self" class="robotics2" title="Robotics"> Robotics</a>
 <a href="code.html" class="code2" title="Code">coding</a>
 <a href="about.html"  class="about2" title="About" > about</a>
-<!--     <a href="sign.html" class="sign2" style="margin: initial;">sign up</a>
-    <a href="log.html" class="log2">Login</a> -->
-</div>
+<p id="user"></p>
+</div> 
     </div>
     <nav style="position: relative;top: -18px;">
-<a href="robotics.html"  target="_parent" id="robotics" title="Robotics"> Robotics</a>
-<a href="code.html" id="code" title="Code">coding</a>
-<a href="about.html"  id="about" title="About" > about</a>
-<!--     <a href="sign.html" class="sign" >sign up</a>
-    <a href="log.html" class="log">Login</a> -->
 </nav>
 </header>
-<main>
+<div id="tab">
+
+<main onclick="up()">
+  
 <section id="sec1">
-<p class="title_para" >we create , help
-and try
- to make you perfect.</p><br>
+<p class="title_para" >A new way to learn</p><wbr>
+<p></p>
+ <br>
  <p class="title_para1">the new learning website.</p>
 
-</section>
+</section></div>
     <section id="sec2">
         <div class="slideshow-container">
 
@@ -52,20 +49,25 @@ and try
               <img src="/myself/images/light-red.jpg" style="width:100% ;height:400px;">
               <div class="text">......</div>
             </div>
+            
             <div class="mySlides fade">
               <div class="numbertext">2 / 3</div>
               <img src="/myself/images/green.jpg" style="width:100%;height:400px;">
               <div class="text">......</div>
             </div>
+            
             <div class="mySlides fade">
               <div class="numbertext">3 / 3</div>
               <img src="/myself/images/Aqua.jpg" style="width:100%;height:400px;">
               <div class="text">......</div>
             </div>
+            
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
+            
             </div>
             <br>
+            
             <div style="text-align:center">
               <span class="dot" onclick="currentSlide(1)"></span> 
               <span class="dot" onclick="currentSlide(2)"></span> 
@@ -74,20 +76,32 @@ and try
     </section>
     <section id="sec3">
 <div class="sec3">
-    <p>member 1</p>
+    <p>member : 1</p>
 </div>
 <div class="sec3">
-  <p>member 2</p>
+  <p>visited : 5</p>
 </div>
 <div class="sec3">
-  <p>member 3</p>
+  <p>country : 1</p>
 </div>
 </section>
 <section id="sec4">
-</section> 
+
+
+
+</section>
+
+
+
+
+
+
+
+
+    
 </main>
-<footer>
-     <a href="#" style="float: right;"><i class="fa-solid fa-caret-up" style="font-size: 60px;"></i></a>
+<footer onclick="up()">
+     <a href="" style="float: right;"><i class="fa-solid fa-caret-up" style="font-size: 60px;"></i></a>
      <br>
      <a href="https://youtube.com" target="_blank" title="youtube"><i class="fa-brands fa-youtube" style="color: #f50000;font-size: 40px;"></i></a>
      <a href="https://linkedin.com" target="_blank" title="linkedin"><i class="fa-brands fa-linkedin" style="font-size: 40px;"></i></a>
